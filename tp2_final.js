@@ -1,3 +1,4 @@
+//https://youtu.be/1I3kLCM-RE4
 let personaje;
 let temporizador;
 let fondo;
@@ -104,7 +105,7 @@ function draw() {
     textAlign(LEFT, TOP);
     text(`Puntos: ${puntos}`, 10, 10);
 
-    if (temporizador.tiempoRestante === 0) {
+    if (temporizador === 0) {
       if (puntos >= 200) {
         estadoJuego = "ganaste";
       } else {
